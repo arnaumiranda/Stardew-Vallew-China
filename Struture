@@ -1,0 +1,8 @@
+stardew_web/
+│
+├─ app.py
+├─ templates/
+│   └─ index.html
+└─ static/
+    ├─ style.css
+    └─ game.js
