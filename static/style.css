@@ -1,0 +1,21 @@
+#farm {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.tile {
+    width: 60px;
+    height: 60px;
+    background-color: #7cfc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #333;
+    font-weight: bold;
+}
+
+.tile.planted { background-color: #228B22; color: white; }
+.tile.harvestable { background-color: #FFD700; color: black; }
