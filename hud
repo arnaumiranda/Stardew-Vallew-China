@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Stardew Valley Web</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Mini Stardew Valley Web</h1>
+    <p>Día: <span id="day">1</span></p>
+    <div id="farm"></div>
+    <button onclick="nextDay()">Siguiente día</button>
+
+    <script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html>
